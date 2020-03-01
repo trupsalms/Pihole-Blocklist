@@ -1,0 +1,31 @@
+#=====================================
+# Hosts contributed by information found 
+# across the web from various sources as
+# well as doing my own network scans
+# using wireshark while running pandora
+
+
+t1-1.p-cdn.us
+t2-1.p-cdn.us
+t2-5.p-cdn.us
+t1-3.p-cdn.us
+t2-2.p-cdn.us
+t2-4.p-cdn.us
+t1-2.p-cdn.us
+t2-3.p-cdn.us
+pubads.g.doubleclick.net
+lt501.tritondigital.com
+t1-4.p-cdn.us
+t1-5.p-cdn.us
+ad.pandora.tv
+ads.pandora.tv.net
+t3-3.p-cdn.us
+t3-1.p-cdn.us
+t3-2.p-cdn.us
+t3-4.p-cdn.us
+t3-5.p-cdn.us
+pandoramedia.sc.omtrdc.net
+stats.pandora.com
+adserver.pandora.com
+ad.doubleclick.net
+z.moatads.com
