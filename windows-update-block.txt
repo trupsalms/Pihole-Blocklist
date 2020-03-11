@@ -1,0 +1,21 @@
+127.0.0.1 *.download.windowsupdate.com
+
+127.0.0.1 *.microsoft.com
+
+127.0.0.1 *.update.microsoft.com
+
+127.0.0.1 *.windowsupdate.com
+
+127.0.0.1 *.windowsupdate.microsoft.com
+
+127.0.0.1 download.microsoft.com
+
+127.0.0.1 download.windowsupdate.com
+
+127.0.0.1 ntservicepack.microsoft.com
+
+127.0.0.1 test.stats.update.microsoft.com
+
+127.0.0.1 windowsupdate.microsoft.com
+
+127.0.0.1 wustat.windows.com
