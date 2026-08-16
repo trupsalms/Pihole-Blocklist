@@ -1,0 +1,42 @@
+# Title: Grindr & Jack'd Ad-Network Blocklist (ads only)
+# Description: Ad-serving and ad-verification domains only — excludes pure
+#              analytics/crash-reporting SDKs (Crashlytics, Localytics, etc.)
+#              which don't serve ads but may be needed for app stability.
+#              Grindr entries confirmed via EFF TrackerControl audit (2026) and
+#              SINTEF-9012 decompile study. Jack'd entries are best-effort based
+#              on ad networks common to the dating-app category; not independently
+#              confirmed for Jack'd via traffic capture.
+# Sources: https://www.eff.org/deeplinks/2026/06/grindr-put-queer-safety-and-privacy-over-profits
+#          https://github.com/SINTEF-9012/grindr-privacy-leaks
+# Generated: 2026-08-16
+
+# --- Confirmed Grindr ad networks ---
+adcolony.com
+ads30.adcolony.com
+wpm.adcolony.com
+adsafeprotected.com
+static.adsafeprotected.com
+moatads.com
+z.moatads.com
+mopub.com
+ads.mopub.com
+openx.net
+us-east-1.openx.net
+smaato.net
+sdk.smaato.net
+nexage.com
+liftoff.io
+ads.liftoff.io
+fqtag.com
+
+# --- Common ad networks also used by Jack'd and similar dating apps ---
+# (Best-effort — not independently confirmed for Jack'd specifically)
+vungle.com
+ads.vungle.com
+chartboost.com
+live.chartboost.com
+adsdk.ironsrc.com
+googlesyndication.com
+googleadservices.com
+doubleclick.net
+an.facebook.com
