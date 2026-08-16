@@ -1,0 +1,101 @@
+# Title: Top Android App Ad Networks Blocklist
+# Description: Ad-serving domains for the mobile ad network SDKs with the
+#              highest integration share across Android apps on Google Play,
+#              per 42matters/AppBrain SDK market data (2026): Facebook Audience
+#              Network, Google AdMob, Unity Ads, AppLovin, Mintegral, ironSource/
+#              Unity LevelPlay, Vungle (Liftoff), Chartboost, InMobi, Amazon
+#              Mobile Ads, Pangle (ByteDance/TikTok), Verve, Smaato, AdColony,
+#              Tapjoy, Fyber, StartApp, Moloco.
+# Sources: https://42matters.com/sdk-analysis/top-ad-networks-sdks
+#          https://www.appbrain.com/stats/libraries/ad?list=top500
+# Generated: 2026-08-16
+# Caution: Some of these domains (Google/Facebook especially) are shared infra
+#          used far beyond ads — expect broader breakage than app-specific lists.
+#          Test on a small device group before full rollout.
+
+# --- Google AdMob ---
+googleadservices.com
+googlesyndication.com
+pagead2.googlesyndication.com
+doubleclick.net
+adservice.google.com
+
+# --- Facebook Audience Network ---
+an.facebook.com
+graph.facebook.com
+fbcdn.net
+
+# --- Unity Ads / Unity LevelPlay (ironSource) ---
+unityads.unity3d.com
+config.uads.unity3d.com
+adsdk.ironsrc.com
+init.supersonicads.com
+mediation.ironsrc.com
+
+# --- AppLovin ---
+applovin.com
+d.applovin.com
+a.applovin.com
+sdk.applovin.com
+
+# --- Mintegral ---
+mintegral.com
+sdk-ssp.mintegral.com
+
+# --- Vungle / Liftoff ---
+vungle.com
+ads.vungle.com
+liftoff.io
+ads.liftoff.io
+
+# --- Chartboost ---
+chartboost.com
+live.chartboost.com
+ads.chartboost.com
+
+# --- InMobi ---
+inmobi.com
+ads.inmobi.com
+sdkm.inmobi.com
+
+# --- Amazon Mobile Ads ---
+amazon-adsystem.com
+aax.amazon-adsystem.com
+
+# --- Pangle (ByteDance / TikTok Ads) ---
+pangleglobal.com
+pangle.io
+ads.pangle.io
+
+# --- Verve ---
+verve.com
+ssp.verve.com
+
+# --- Smaato ---
+smaato.net
+sdk.smaato.net
+
+# --- AdColony ---
+adcolony.com
+ads30.adcolony.com
+wpm.adcolony.com
+
+# --- Tapjoy ---
+tapjoy.com
+ws.tapjoyads.com
+
+# --- Fyber (Digital Turbine) ---
+fyber.com
+sdk.fyber.com
+
+# --- StartApp ---
+startapp.com
+manage.startapp.com
+
+# --- Moloco ---
+moloco.com
+adx.moloco.com
+
+# --- IAB Open Measurement SDK (ad verification, not ads itself, but tightly coupled) ---
+adsafeprotected.com
+static.adsafeprotected.com
