@@ -1,0 +1,88 @@
+# PI-HOLE REGEX
+# From stevejenkins Pi-hole LoL (List of Lists)
+# https://github.com/stevejenkins/pi-hole-lists/
+
+### REGEX ALLOW (includes Wildcard Domains) ###
+# Whitelisting of specific wildcard domains based on your household needs
+
+# Allow Google Meet
+^beacons([0-9])?\.(gcp\.)?gvt([0-9])\.com$
+
+# Allow Hulu to stream properly
+^ads-[a-z]-darwin\.hulustream\.com$
+
+# Allow Google Ad Clicks
+(\.|^)google(adservices|tagmanager)\.com$
+
+# Allow Wondery Podcasts
+^(ext|web)\.chtbl\.com$
+
+# Allow Dynamic DNS
+^ipv(4|6)\.nsupdate\.info$
+
+# Allow UI Connectivity Monitor
+^(ping|trace\.svc)\.ui\.com$
+
+# Allow Megaphone podcasts
+^traffic\.(|va[0-9]\.)megaphone\.(fm|cloud)$
+
+# Allow Etsy
+(\.|^)email\.etsy\.com$
+
+# Allow for Online Games
+(\.|^)rockstargames\.com$
+(\.|^)unity3d\.com$
+(\.|^)steam\.com$
+(\.|^)liftoff\.io$
+client.rave-api.com
+
+# Allow CrossFit Affiliate Area
+(\.|^)crossfit\.com$
+
+### EXACT ALLOW ###
+# Whitelisting of specific FQDNs based on your household needs
+
+# Allow for Online Games
+client.rave-api.com
+
+# Allow Dynamic DNS
+freedns.afraid.org
+
+# Allow  USPS tracking
+track.shipstation.com
+
+# Allow for Hulu
+ib.huluim.com
+ads-fa-darwin.hulustream.com
+	
+# Allow Amazon Affiliates
+affiliate-program.amazon.com
+
+# Allow Radiooooo
+track.radiooooo.com
+
+# Allow Xbox Live
+arc.msn.com
+
+# Allow for Podcasts
+traffic.libsyn.com
+
+# Allow FreeGeoIP
+freegeoip.app
+
+# Allow Paramount/CBS
+doppler-reporting.cbsivideo.com
+
+# Allow Spotify
+wl.spotify.com
+
+# Allow for Plex Metadata
+gravatar.com
+thetvdb.com
+themoviedb.com
+
+# Allow OfferUp Share
+api2.branch.io
+
+# Allow Samsung TV App Store
+osb-apps-v2.samsungqbe.com
