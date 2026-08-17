@@ -1,0 +1,22 @@
+d Domains That Are NOT Blocked:
+- googleadservices.com → resolve to Google's servers
+- afss.googlesyndication.com → resolve to Google's servers
+- adservice.google.com → resolves (but some paths blocked)
+- ad.doubleclick.net → returns 0.0.0.0 (BLOCKED) - exception
+- static.doubleclick.net → returns 0.0.0.0 (BLOCKED) - exception
+
+Analytics/Tracking Domains NOT Blocked:
+- facebook.com (main site) - pixel.facebook.com is BLOCKED
+- youtube.com (main site) - ads.youtube.com is BLOCKED
+- www.google.com - resolves normally
+
+Key Observation: Your Pi-hole is blocking the specific tracking and ad domains (like pixel.facebook.com, ads.youtube.com, www.google-analytics.com) but allowing the main websites to resolve normally. This is the expected/advisable behavior.
+
+The 0.0.0.0 responses for some domains (like doubleclick.net) are coming from your FTLDNS/gravity database which contains 431,158+ blocked domains from various blocklists.
+
+These domains currently resolve normally because:
+1. They're not in your blocklists
+2. They're legitimate sites that shouldn't be blocked
+3. Your configuration blocks trackers/subdomains, not root domains (correct approach)
+
+Would you like me to test more specific domains or check 
